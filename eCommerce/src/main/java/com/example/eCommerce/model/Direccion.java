@@ -13,15 +13,19 @@ import java.util.List;
 public class Direccion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long Id;
+    private long direccionId;
+    @Column(name = "calle")
     private String calle;
+    @Column(name = "piso")
     private String piso;
+    @Column(name = "departamento")
     private String departamento;
+    @Column(name = "ciudad")
     private String ciudad;
+    @Column(name = "provincia")
     private String provincia;
 
-    @OneToMany(mappedBy = "direccion")
-    private List<DireccionUsuario> direccionUsuario;
+
 
     public Direccion(String calle, String piso, String departamento, String ciudad, String provincia) {
         this.calle = calle;
