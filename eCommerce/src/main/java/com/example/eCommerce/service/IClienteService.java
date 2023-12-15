@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.Optional;
 
 public interface IClienteService {
-    //metodo para traer todas las cliente
+    //metodo para traer todos las cliente
     public List<Cliente> findAll();
     //metodo para dar de alta una cliente
-    public void save(Cliente cliente);
+    public void agregarCliente(Cliente cliente);
     //metodo parr eliminar un cliente
     public void deleteById(Long id);
     //metodo para encontrar un cliente

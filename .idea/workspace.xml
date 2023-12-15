@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63df327a-71f0-4fbd-9b0d-995ec5297adc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/ProductoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/DireccionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/ClienteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/ClienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/SesionUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/SesionUsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Carrito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/CarritoItem.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Direccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/DireccionUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/IClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/IClienteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702337955927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creacion de repositorio y service de Cliente">
+      <option name="closed" value="true" />
+      <created>1702379103053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702379103053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
     <MESSAGE value="segundo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="segundo commit" />
+    <MESSAGE value="creacion de repositorio y service de Cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de repositorio y service de Cliente" />
   </component>
 </project>
