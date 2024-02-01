@@ -1,4 +1,4 @@
-package com.example.eCommerce.model;
+/*package com.example.eCommerce.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -28,3 +28,4 @@ public class ProductoItem {
     }
 
 }
+*/

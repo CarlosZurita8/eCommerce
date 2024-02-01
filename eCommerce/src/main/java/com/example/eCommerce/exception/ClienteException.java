@@ -1,4 +1,4 @@
-package com.example.eCommerce.exception;
+package com.example.exception;
 
 public class ClienteException extends RuntimeException{
     public ClienteException(){

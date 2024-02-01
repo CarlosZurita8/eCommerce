@@ -1,18 +1,20 @@
-package com.example.eCommerce.model;
+package com.example.eCommerce.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.List;
 
 @Entity
 @Getter
 @Setter
+@Data
 @Table(name = "producto")
+@NoArgsConstructor
 public class Producto {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @Column(name = "nombre_producto")
     private String nombreProducto;
@@ -24,9 +26,9 @@ public class Producto {
     @JoinColumn(name = "categoria_id")
     private Categoria categoria;
 
-    @OneToMany(mappedBy = "producto")
+    /*@OneToMany(mappedBy = "producto")
     private List<ProductoItem>productoItems;
-
+    */
     public Producto(String nombreProducto, String descripcion, String imagenProducto) {
         this.nombreProducto = nombreProducto;
         this.descripcion = descripcion;

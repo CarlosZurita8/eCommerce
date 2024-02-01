@@ -1,19 +1,18 @@
-package com.example.eCommerce.model;
+package com.example.eCommerce.entities;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
-@Getter
-@Setter
+@Data
 @Table(name = "categoria")
+@NoArgsConstructor
 public class Categoria {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column(name = "nombre_categoria")
     private String nombreCategoria;

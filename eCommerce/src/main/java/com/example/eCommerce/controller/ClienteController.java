@@ -1,10 +1,8 @@
-package com.example.eCommerce.controller;
+package com.example.controller;
 
 
-import com.example.eCommerce.service.ClienteService;
+import com.example.service.ClienteService;
 import lombok.AllArgsConstructor;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -13,7 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class ClienteController {
 
-    @Autowired
     ClienteService clienteService;
+
+    //metodo para obtener la lista de los clientes
+
 
 }

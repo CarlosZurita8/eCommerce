@@ -1,18 +1,20 @@
-package com.example.eCommerce.model;
+package com.example.eCommerce.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.List;
 
 @Entity
 @Table(name = "direccion")
 @Getter
 @Setter
+@Data
+@NoArgsConstructor
 public class Direccion {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long direccionId;
     @Column(name = "calle")
     private String calle;

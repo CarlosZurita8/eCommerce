@@ -1,23 +1,22 @@
-package com.example.eCommerce.model;
+package com.example.eCommerce.models;
 
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import lombok.*;
-import org.springframework.lang.NonNull;
-
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-@Table(name = "usuario")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "usuario_cliente")
 public class Cliente {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long usuarioId;
 
     @Column(name = "nombre_usuario")
@@ -32,9 +31,15 @@ public class Cliente {
 
     @Column(name = "numero_telefono")
     @NotNull(message = "Por favor ingrese el numero de telefono")
-    @Pattern(regexp = "[6789]{1}[0-9]{9}",message = "Ingrese un numero de telefono de 10 digitos valido")
+    /*@Pattern(regexp = "/^(?:(?:00)?549?)?0?(?:11|[2368]\\d)(?:(?=\\d{0,2}15)\\d{2})??\\d{8}$/",message = "Ingrese un numero de telefono de 10 digitos valido")
+    verificar numero para argentina con codigo de area...pendiente,lo dejo asi para que entre cualquier numero por el momento*/
     private String numTelefono;
 
+    @NotNull
+    @Pattern(regexp = "[A-Za-z0-9!@#$%^&*_]{8,15}",message = "¡La contraseña debe tener entre 8 y 15 caracteres y puede incluir A-Z, a-z, 0-9 o caracteres especiales! @#$%^&*_")
+    private String password;
+
+    @Column(name = "fecha_creacion")
     private LocalDateTime fechaCreacion;
 
     //creamos una tabla para relacionar los clientes con las direcciones
