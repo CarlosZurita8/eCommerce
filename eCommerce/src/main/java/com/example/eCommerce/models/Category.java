@@ -1,18 +1,15 @@
-package com.example.eCommerce.entities;
+package com.example.eCommerce.models;
 
-import jakarta.persistence.*;
-import lombok.*;
-
-import java.util.List;
-
+/*
 @Entity
 @Data
-@Table(name = "categoria")
 @NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Categoria {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "nombre_categoria")
     private String nombreCategoria;
@@ -25,3 +22,4 @@ public class Categoria {
         this.nombreCategoria= nombreCategoria;
     }
 }
+*/

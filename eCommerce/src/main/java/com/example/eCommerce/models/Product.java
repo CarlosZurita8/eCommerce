@@ -1,17 +1,10 @@
-package com.example.eCommerce.entities;
+package com.example.eCommerce.models;
 
-import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
+/*
 @Entity
-@Getter
-@Setter
 @Data
-@Table(name = "producto")
 @NoArgsConstructor
+@AllArgsConstructor
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -28,10 +21,11 @@ public class Producto {
 
     /*@OneToMany(mappedBy = "producto")
     private List<ProductoItem>productoItems;
-    */
+
     public Producto(String nombreProducto, String descripcion, String imagenProducto) {
         this.nombreProducto = nombreProducto;
         this.descripcion = descripcion;
         this.imagenProducto = imagenProducto;
     }
 }
+*/

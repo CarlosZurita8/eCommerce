@@ -5,21 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63df327a-71f0-4fbd-9b0d-995ec5297adc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/ClienteDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/ClienteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/SesionUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/SesionUsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/ConsumerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/SellerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ConsumerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/SellerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eCommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Carrito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/CarritoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ClienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/IClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/IClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/ClienteDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/SesionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/dto/SessionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/ClienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/ConsumerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/ClienteNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/ConsumerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/DetalleDeError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/GlobalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/LoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/exception/LoginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/ProductoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/SesionUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/models/UserSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/DireccionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/SesionUsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/repository/UserSessionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/ConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/LoginLogoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/LoginLogoutServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/LonginLogoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/com/example/eCommerce/service/LonginLogoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/test/java/com/example/ECommerceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/test/java/com/example/ECommerceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +60,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -53,13 +76,30 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ECommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ECommerceApplicationTests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Proyectos Java portfolio/eCommerce&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Proyectos Java portfolio/eCommerceIntell/eCommerce&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,13 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702379103053</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modificacion del metodo &quot;agregar cliente&quot;">
+      <option name="closed" value="true" />
+      <created>1702638944038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702638944038</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="primer commit" />
     <MESSAGE value="segundo commit" />
     <MESSAGE value="creacion de repositorio y service de Cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de repositorio y service de Cliente" />
+    <MESSAGE value="modificacion del metodo &quot;agregar cliente&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion del metodo &quot;agregar cliente&quot;" />
   </component>
 </project>

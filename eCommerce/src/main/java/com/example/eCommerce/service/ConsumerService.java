@@ -1,17 +1,18 @@
 package com.example.eCommerce.service;
 
-import com.example.eCommerce.models.Cliente;
+import com.example.eCommerce.models.Consumer;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface ClienteService {
+public interface ConsumerService {
+
     //metodo para traer todos las cliente
-    public List<Cliente> findAll();
+    public List<Consumer> findAll();
     //metodo para dar de alta una cliente
-    public Cliente agregarCliente(Cliente cliente);
+    public Consumer addConsumer(Consumer consumer);
     //metodo parr eliminar un cliente
     public void deleteById(Long id);
     //metodo para encontrar un cliente
-    public Optional<Cliente> findById(Long id);
+    public Optional<Consumer> findById(Long id);
 }

@@ -1,2 +1,11 @@
-package com.example.eCommerce.exception;public class LoginException {
+package com.example.eCommerce.exception;
+
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+public class LoginException extends RuntimeException {
+
+    public LoginException(String message){
+        super(message);
+    }
 }
